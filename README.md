@@ -2,14 +2,14 @@
 
 # INiT Studio
 
-### Production‑Grade Web Platforms
-**Full‑Stack Development · UI/UX · RTL / Persian Interfaces**
+### Production-Grade Web Platforms
+**Full-Stack Development · UI/UX · RTL / Persian Interfaces**
 
-[![Website](https://img.shields.io/badge/Live-initstudio.ir-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://initstudio.ir)
-[![Node.js](https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=nodedotjs&logoColor=white)](#tech-stack)
-[![Express](https://img.shields.io/badge/Express-111111?style=for-the-badge&logo=express&logoColor=white)](#tech-stack)
-[![MySQL](https://img.shields.io/badge/MySQL-111111?style=for-the-badge&logo=mysql&logoColor=white)](#tech-stack)
-[![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-111111?style=for-the-badge&logo=javascript&logoColor=white)](#tech-stack)
+[![Live Website](https://img.shields.io/badge/LIVE-initstudio.ir-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://initstudio.ir)
+![Node.js](https://img.shields.io/badge/Node.js-111111?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-111111?style=for-the-badge&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-111111?style=for-the-badge&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/Vanilla_JS-111111?style=for-the-badge&logo=javascript&logoColor=white)
 
 </div>
 
@@ -18,185 +18,81 @@
 ## Preview
 
 <div align="center">
-
-<a href="https://initstudio.ir">
-  <img src="./docs/preview.png" alt="INiT Studio Website Preview" width="100%">
-</a>
-
-**[Visit the live website →](https://initstudio.ir)**
-
+  <a href="https://initstudio.ir">
+    <img src="./docs/site-mockups.png" alt="INiT Studio website desktop and mobile mockups" width="100%">
+  </a>
 </div>
 
 ---
 
 ## About
 
-**INiT Studio** is an independent web development practice focused on building lightweight, production‑grade digital platforms with a strong visual identity.
+**INiT Studio** is an independent web development practice focused on creating lightweight, production-ready digital platforms with a strong visual identity.
 
-The website combines a **dark retro‑futuristic / terminal‑inspired interface** with a full‑stack engineering profile, presenting development capabilities, infrastructure practices, selected projects, and creative interests in one interactive experience.
+The website presents the studio through a dark, terminal-inspired interface and combines full-stack development, UI/UX, RTL support and selected digital work in a single responsive experience.
 
-The project places special emphasis on:
+## Stack
 
-- Production‑ready full‑stack architecture
-- Lightweight frontend development
-- RTL and Persian‑language interfaces
-- Performance and maintainability
-- Authentication and application security
-- Strong visual identity and custom UI/UX
+- **Backend:** Node.js, Express.js
+- **Database:** MySQL
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript
+- **Interface:** Responsive UI, RTL / Persian support
+- **Focus:** Performance, maintainability and custom interaction design
 
----
+## Website Highlights
 
-## Tech Stack
+- Terminal / system-inspired visual identity
+- Fully responsive desktop and mobile layouts
+- Persian / English friendly interface
+- Lightweight vanilla frontend
+- Interactive profile and project sections
+- Custom UI instead of template-based components
 
-### Backend
+## More Screens
 
-- **Node.js**
-- **Express.js**
-- **MySQL**
+<table>
+  <tr>
+    <td width="70%">
+      <img src="./docs/desktop-site.png" alt="INiT Studio desktop website mockup">
+    </td>
+    <td width="30%">
+      <img src="./docs/mobile-site.png" alt="INiT Studio mobile website mockup">
+    </td>
+  </tr>
+</table>
 
-### Frontend
+## Live Website
 
-- **HTML5**
-- **CSS3**
-- **Vanilla JavaScript**
-- Custom responsive UI
-- RTL / Persian UI support
-
-### Security & Infrastructure
-
-- JWT‑based authentication
-- Refresh token workflow
-- Role‑based access control
-- Rate limiting
-- Secure HTTP headers
-- CORS / CSP / HSTS
-- Input validation and sanitization
-- Cache‑control strategies
-- Dynamic TTL / jitter techniques
-
----
-
-## Highlights
-
-```text
-> FULL‑STACK WEB
-> PRODUCTION‑GRADE PLATFORMS
-> NODE · EXPRESS · MYSQL
-> VANILLA FRONTEND
-> RTL · PERSIAN UI
-> SECURITY · PERFORMANCE · INFRASTRUCTURE
-```
-
-The experience is designed around a distinctive terminal / system‑interface aesthetic while keeping the actual web stack minimal and maintainable.
-
----
-
-## Featured Sections
-
-| Section | Description |
-|---|---|
-| **Interactive Resume** | Terminal‑style introduction to the developer and studio |
-| **Profile** | Background, approach and development philosophy |
-| **Security & Infra** | Security, caching and production infrastructure practices |
-| **Active Projects** | Selected live web projects |
-| **Sound & Signal** | Creative influences including electronic music and sound design |
-| **Contact** | Social and professional contact information |
-
----
-
-## Design Direction
-
-The visual system of INiT Studio is built around:
-
-- Dark monochrome surfaces
-- Terminal / command‑line typography
-- Retro‑futuristic system interfaces
-- Minimal but information‑dense layouts
-- Technical labels, system states and status indicators
-- Responsive desktop and mobile presentation
-
----
-
-## Project Philosophy
-
-> Build fast.  
-> Keep it lightweight.  
-> Secure the production layer.  
-> Design interfaces with identity.
-
-INiT Studio focuses on solutions that balance **engineering quality**, **performance**, and **visual communication** rather than relying on unnecessary frontend complexity.
-
----
-
-## Live Project
-
-### INiT Studio
-
-**Website:** [https://initstudio.ir](https://initstudio.ir)
-
-The studio's digital identity and interactive full‑stack portfolio.
-
----
+**[initstudio.ir →](https://initstudio.ir)**
 
 ## Local Development
-
-Clone the repository:
 
 ```bash
 git clone <YOUR_REPOSITORY_URL>
 cd <YOUR_PROJECT_FOLDER>
-```
-
-Install dependencies:
-
-```bash
 npm install
+npm run dev
 ```
 
-Create the environment configuration required by the project:
+Create your local environment file from the example provided in the repository:
 
 ```bash
 cp .env.example .env
 ```
 
-Then run the start or development script configured in `package.json`, for example:
+> Never commit real credentials, API keys or production environment values to a public repository.
 
-```bash
-npm run dev
-```
+## Public Repository Notes
 
-> The exact environment variables and start command should follow the configuration of this repository.
-
----
-
-## Repository Asset
-
-The README preview is stored locally at:
-
-```text
-docs/preview.png
-```
-
-This means the GitHub preview is **static** and does not depend on an external screenshot service.
-
----
-
-## Contact
-
-**INiT Studio**  
-Full‑Stack Web Development · Production‑Grade Platforms
-
-- Website: [initstudio.ir](https://initstudio.ir)
-- LinkedIn: [Soheil Shahijani](https://www.linkedin.com/in/soheilshahijani/)
+This README intentionally documents the project at a high level. Production credentials, private configuration, internal secrets and environment-specific values should remain outside the repository.
 
 ---
 
 <div align="center">
 
-### INiT Studio
-
+**INiT Studio**  
 `NODE.JS` · `EXPRESS` · `MYSQL` · `VANILLA JS` · `RTL` · `UI/UX`
 
-**Designed & developed with a focus on performance, security and identity.**
+[Visit Website](https://initstudio.ir)
 
 </div>
